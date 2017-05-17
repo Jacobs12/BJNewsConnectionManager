@@ -18,7 +18,6 @@
 		19EAAE131ECC36D5007645F8 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADFE1ECC36D5007645F8 /* NSString+Hashing.m */; };
 		19EAAE141ECC36D5007645F8 /* FTSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAAE011ECC36D5007645F8 /* FTSessionRequest.m */; };
 		19EAAE151ECC36D5007645F8 /* MYConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAAE031ECC36D5007645F8 /* MYConnection.m */; };
-		19EAAE161ECC36D5007645F8 /* MYReuqest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAAE051ECC36D5007645F8 /* MYReuqest.m */; };
 		4FB074C41ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074C31ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.m */; };
 		4FB074CF1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074CE1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests.m */; };
 		4FB074EC1ECC1E200050F4E7 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074DD1ECC1E200050F4E7 /* .gitattributes */; };
@@ -76,8 +75,6 @@
 		19EAAE011ECC36D5007645F8 /* FTSessionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSessionRequest.m; sourceTree = "<group>"; };
 		19EAAE021ECC36D5007645F8 /* MYConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYConnection.h; sourceTree = "<group>"; };
 		19EAAE031ECC36D5007645F8 /* MYConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYConnection.m; sourceTree = "<group>"; };
-		19EAAE041ECC36D5007645F8 /* MYReuqest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYReuqest.h; sourceTree = "<group>"; };
-		19EAAE051ECC36D5007645F8 /* MYReuqest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYReuqest.m; sourceTree = "<group>"; };
 		4FB074A61ECC1BEF0050F4E7 /* BJNewsConnectionManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJNewsConnectionManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB074BF1ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJNewsConnectionManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB074C31ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJNewsConnectionManagerTests.m; sourceTree = "<group>"; };
@@ -192,8 +189,6 @@
 				19EAAE011ECC36D5007645F8 /* FTSessionRequest.m */,
 				19EAAE021ECC36D5007645F8 /* MYConnection.h */,
 				19EAAE031ECC36D5007645F8 /* MYConnection.m */,
-				19EAAE041ECC36D5007645F8 /* MYReuqest.h */,
-				19EAAE051ECC36D5007645F8 /* MYReuqest.m */,
 			);
 			path = MYConnection;
 			sourceTree = "<group>";
@@ -402,7 +397,6 @@
 				19EAAE0D1ECC36D5007645F8 /* FMDatabase.m in Sources */,
 				19EAAE141ECC36D5007645F8 /* FTSessionRequest.m in Sources */,
 				19EAAE101ECC36D5007645F8 /* FMDatabaseQueue.m in Sources */,
-				19EAAE161ECC36D5007645F8 /* MYReuqest.m in Sources */,
 				19EAAE111ECC36D5007645F8 /* FMResultSet.m in Sources */,
 				19EAAE0F1ECC36D5007645F8 /* FMDatabasePool.m in Sources */,
 				19EAAE151ECC36D5007645F8 /* MYConnection.m in Sources */,
