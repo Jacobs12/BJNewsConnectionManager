@@ -55,4 +55,9 @@
  */
 - (void)removeRecordwithURL:(NSString *)url;
 
+/**
+ 删除所有缓存数据
+ */
+- (void)cleanDataBase;
+
 @end

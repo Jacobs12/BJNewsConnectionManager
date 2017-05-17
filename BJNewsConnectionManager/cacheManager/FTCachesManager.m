@@ -78,4 +78,20 @@ static FTCachesManager * ft_cache_manager;
     }
     return nil;
 }
+
+/**
+ 删除所有缓存数据
+ */
+- (void)cleanDataBase{
+    NSString * path = FT_CACHE_PATH;
+    NSFileManager * manager = [NSFileManager defaultManager];;
+    NSError * error = nil;
+    BOOL isSucess = [manager removeItemAtPath:path error:&error];
+    if(!isSucess){
+        perror("删除失败");
+    }
+    NSString * str = @"init_db";
+    NSData * db_data = [str dataUsingEncoding:NSUTF8StringEncoding];
+    [[FTCachesManager defaultManager] synchroiedURL:@"init_db" data:db_data];
+}
 @end
