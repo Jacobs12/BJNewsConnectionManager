@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19EAAE091ECC36D5007645F8 /* FTCachesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADE41ECC36D5007645F8 /* FTCachesManager.m */; };
+		19EAAE0A1ECC36D5007645F8 /* FTDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADE61ECC36D5007645F8 /* FTDataBaseManager.m */; };
+		19EAAE0B1ECC36D5007645F8 /* FTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADE91ECC36D5007645F8 /* FTRequest.m */; };
+		19EAAE0C1ECC36D5007645F8 /* FTRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADEB1ECC36D5007645F8 /* FTRequestManager.m */; };
+		19EAAE0D1ECC36D5007645F8 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADEE1ECC36D5007645F8 /* FMDatabase.m */; };
+		19EAAE0E1ECC36D5007645F8 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADF01ECC36D5007645F8 /* FMDatabaseAdditions.m */; };
+		19EAAE0F1ECC36D5007645F8 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADF21ECC36D5007645F8 /* FMDatabasePool.m */; };
+		19EAAE101ECC36D5007645F8 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADF41ECC36D5007645F8 /* FMDatabaseQueue.m */; };
+		19EAAE111ECC36D5007645F8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADF71ECC36D5007645F8 /* FMResultSet.m */; };
+		19EAAE121ECC36D5007645F8 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADFA1ECC36D5007645F8 /* GTMBase64.m */; };
+		19EAAE131ECC36D5007645F8 /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAADFE1ECC36D5007645F8 /* NSString+Hashing.m */; };
+		19EAAE141ECC36D5007645F8 /* FTSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAAE011ECC36D5007645F8 /* FTSessionRequest.m */; };
+		19EAAE151ECC36D5007645F8 /* MYConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAAE031ECC36D5007645F8 /* MYConnection.m */; };
+		19EAAE161ECC36D5007645F8 /* MYReuqest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAAE051ECC36D5007645F8 /* MYReuqest.m */; };
+		19EAAE171ECC36D5007645F8 /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EAAE081ECC36D5007645F8 /* MLNavigationController.m */; };
 		4FB074C41ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074C31ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.m */; };
 		4FB074CF1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074CE1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests.m */; };
 		4FB074EC1ECC1E200050F4E7 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074DD1ECC1E200050F4E7 /* .gitattributes */; };
@@ -20,7 +35,6 @@
 		4FB074F41ECC1E200050F4E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074E81ECC1E200050F4E7 /* main.m */; };
 		4FB074F51ECC1E200050F4E7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074E91ECC1E200050F4E7 /* README.md */; };
 		4FB074F61ECC1E200050F4E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074EB1ECC1E200050F4E7 /* ViewController.m */; };
-		4FB074FA1ECC1E3F0050F4E7 /* MYConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074F91ECC1E3F0050F4E7 /* MYConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +55,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19EAADE31ECC36D5007645F8 /* FTCachesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTCachesManager.h; sourceTree = "<group>"; };
+		19EAADE41ECC36D5007645F8 /* FTCachesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTCachesManager.m; sourceTree = "<group>"; };
+		19EAADE51ECC36D5007645F8 /* FTDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDataBaseManager.h; sourceTree = "<group>"; };
+		19EAADE61ECC36D5007645F8 /* FTDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDataBaseManager.m; sourceTree = "<group>"; };
+		19EAADE81ECC36D5007645F8 /* FTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRequest.h; sourceTree = "<group>"; };
+		19EAADE91ECC36D5007645F8 /* FTRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRequest.m; sourceTree = "<group>"; };
+		19EAADEA1ECC36D5007645F8 /* FTRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTRequestManager.h; sourceTree = "<group>"; };
+		19EAADEB1ECC36D5007645F8 /* FTRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTRequestManager.m; sourceTree = "<group>"; };
+		19EAADED1ECC36D5007645F8 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		19EAADEE1ECC36D5007645F8 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		19EAADEF1ECC36D5007645F8 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		19EAADF01ECC36D5007645F8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		19EAADF11ECC36D5007645F8 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		19EAADF21ECC36D5007645F8 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		19EAADF31ECC36D5007645F8 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		19EAADF41ECC36D5007645F8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		19EAADF51ECC36D5007645F8 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		19EAADF61ECC36D5007645F8 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		19EAADF71ECC36D5007645F8 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		19EAADF91ECC36D5007645F8 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		19EAADFA1ECC36D5007645F8 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		19EAADFB1ECC36D5007645F8 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		19EAADFD1ECC36D5007645F8 /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		19EAADFE1ECC36D5007645F8 /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
+		19EAAE001ECC36D5007645F8 /* FTSessionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTSessionRequest.h; sourceTree = "<group>"; };
+		19EAAE011ECC36D5007645F8 /* FTSessionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTSessionRequest.m; sourceTree = "<group>"; };
+		19EAAE021ECC36D5007645F8 /* MYConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYConnection.h; sourceTree = "<group>"; };
+		19EAAE031ECC36D5007645F8 /* MYConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYConnection.m; sourceTree = "<group>"; };
+		19EAAE041ECC36D5007645F8 /* MYReuqest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYReuqest.h; sourceTree = "<group>"; };
+		19EAAE051ECC36D5007645F8 /* MYReuqest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYReuqest.m; sourceTree = "<group>"; };
+		19EAAE071ECC36D5007645F8 /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
+		19EAAE081ECC36D5007645F8 /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
 		4FB074A61ECC1BEF0050F4E7 /* BJNewsConnectionManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJNewsConnectionManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB074BF1ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJNewsConnectionManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB074C31ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJNewsConnectionManagerTests.m; sourceTree = "<group>"; };
@@ -61,8 +107,6 @@
 		4FB074E91ECC1E200050F4E7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4FB074EA1ECC1E200050F4E7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4FB074EB1ECC1E200050F4E7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4FB074F81ECC1E3F0050F4E7 /* MYConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYConnection.h; sourceTree = "<group>"; };
-		4FB074F91ECC1E3F0050F4E7 /* MYConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +134,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19EAADE11ECC36D5007645F8 /* BJNewsConnectionManager */ = {
+			isa = PBXGroup;
+			children = (
+				19EAADE21ECC36D5007645F8 /* cacheManager */,
+				19EAADE71ECC36D5007645F8 /* downloadManager */,
+				19EAADEC1ECC36D5007645F8 /* fmdb */,
+				19EAADF81ECC36D5007645F8 /* GTMBase64 */,
+				19EAADFC1ECC36D5007645F8 /* Hash */,
+				19EAADFF1ECC36D5007645F8 /* MYConnection */,
+				19EAAE061ECC36D5007645F8 /* navigationController */,
+			);
+			path = BJNewsConnectionManager;
+			sourceTree = "<group>";
+		};
+		19EAADE21ECC36D5007645F8 /* cacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				19EAADE31ECC36D5007645F8 /* FTCachesManager.h */,
+				19EAADE41ECC36D5007645F8 /* FTCachesManager.m */,
+				19EAADE51ECC36D5007645F8 /* FTDataBaseManager.h */,
+				19EAADE61ECC36D5007645F8 /* FTDataBaseManager.m */,
+			);
+			path = cacheManager;
+			sourceTree = "<group>";
+		};
+		19EAADE71ECC36D5007645F8 /* downloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				19EAADE81ECC36D5007645F8 /* FTRequest.h */,
+				19EAADE91ECC36D5007645F8 /* FTRequest.m */,
+				19EAADEA1ECC36D5007645F8 /* FTRequestManager.h */,
+				19EAADEB1ECC36D5007645F8 /* FTRequestManager.m */,
+			);
+			path = downloadManager;
+			sourceTree = "<group>";
+		};
+		19EAADEC1ECC36D5007645F8 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				19EAADED1ECC36D5007645F8 /* FMDatabase.h */,
+				19EAADEE1ECC36D5007645F8 /* FMDatabase.m */,
+				19EAADEF1ECC36D5007645F8 /* FMDatabaseAdditions.h */,
+				19EAADF01ECC36D5007645F8 /* FMDatabaseAdditions.m */,
+				19EAADF11ECC36D5007645F8 /* FMDatabasePool.h */,
+				19EAADF21ECC36D5007645F8 /* FMDatabasePool.m */,
+				19EAADF31ECC36D5007645F8 /* FMDatabaseQueue.h */,
+				19EAADF41ECC36D5007645F8 /* FMDatabaseQueue.m */,
+				19EAADF51ECC36D5007645F8 /* FMDB.h */,
+				19EAADF61ECC36D5007645F8 /* FMResultSet.h */,
+				19EAADF71ECC36D5007645F8 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		19EAADF81ECC36D5007645F8 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				19EAADF91ECC36D5007645F8 /* GTMBase64.h */,
+				19EAADFA1ECC36D5007645F8 /* GTMBase64.m */,
+				19EAADFB1ECC36D5007645F8 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		19EAADFC1ECC36D5007645F8 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				19EAADFD1ECC36D5007645F8 /* NSString+Hashing.h */,
+				19EAADFE1ECC36D5007645F8 /* NSString+Hashing.m */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
+		19EAADFF1ECC36D5007645F8 /* MYConnection */ = {
+			isa = PBXGroup;
+			children = (
+				19EAAE001ECC36D5007645F8 /* FTSessionRequest.h */,
+				19EAAE011ECC36D5007645F8 /* FTSessionRequest.m */,
+				19EAAE021ECC36D5007645F8 /* MYConnection.h */,
+				19EAAE031ECC36D5007645F8 /* MYConnection.m */,
+				19EAAE041ECC36D5007645F8 /* MYReuqest.h */,
+				19EAAE051ECC36D5007645F8 /* MYReuqest.m */,
+			);
+			path = MYConnection;
+			sourceTree = "<group>";
+		};
+		19EAAE061ECC36D5007645F8 /* navigationController */ = {
+			isa = PBXGroup;
+			children = (
+				19EAAE071ECC36D5007645F8 /* MLNavigationController.h */,
+				19EAAE081ECC36D5007645F8 /* MLNavigationController.m */,
+			);
+			path = navigationController;
+			sourceTree = "<group>";
+		};
 		4FB0749D1ECC1BEF0050F4E7 = {
 			isa = PBXGroup;
 			children = (
-				4FB074F71ECC1E310050F4E7 /* BJNewsConnectionManager */,
+				19EAADE11ECC36D5007645F8 /* BJNewsConnectionManager */,
 				4FB074DC1ECC1E200050F4E7 /* Demo */,
 				4FB074C21ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests */,
 				4FB074CD1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests */,
@@ -147,15 +286,6 @@
 				4FB074EB1ECC1E200050F4E7 /* ViewController.m */,
 			);
 			path = Demo;
-			sourceTree = "<group>";
-		};
-		4FB074F71ECC1E310050F4E7 /* BJNewsConnectionManager */ = {
-			isa = PBXGroup;
-			children = (
-				4FB074F81ECC1E3F0050F4E7 /* MYConnection.h */,
-				4FB074F91ECC1E3F0050F4E7 /* MYConnection.m */,
-			);
-			path = BJNewsConnectionManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,11 +428,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19EAAE0B1ECC36D5007645F8 /* FTRequest.m in Sources */,
+				19EAAE091ECC36D5007645F8 /* FTCachesManager.m in Sources */,
 				4FB074F51ECC1E200050F4E7 /* README.md in Sources */,
+				19EAAE0D1ECC36D5007645F8 /* FMDatabase.m in Sources */,
+				19EAAE141ECC36D5007645F8 /* FTSessionRequest.m in Sources */,
+				19EAAE0C1ECC36D5007645F8 /* FTRequestManager.m in Sources */,
+				19EAAE101ECC36D5007645F8 /* FMDatabaseQueue.m in Sources */,
+				19EAAE161ECC36D5007645F8 /* MYReuqest.m in Sources */,
+				19EAAE111ECC36D5007645F8 /* FMResultSet.m in Sources */,
+				19EAAE171ECC36D5007645F8 /* MLNavigationController.m in Sources */,
+				19EAAE0F1ECC36D5007645F8 /* FMDatabasePool.m in Sources */,
+				19EAAE151ECC36D5007645F8 /* MYConnection.m in Sources */,
+				19EAAE0A1ECC36D5007645F8 /* FTDataBaseManager.m in Sources */,
+				19EAAE131ECC36D5007645F8 /* NSString+Hashing.m in Sources */,
 				4FB074F41ECC1E200050F4E7 /* main.m in Sources */,
 				4FB074F61ECC1E200050F4E7 /* ViewController.m in Sources */,
-				4FB074FA1ECC1E3F0050F4E7 /* MYConnection.m in Sources */,
 				4FB074EE1ECC1E200050F4E7 /* AppDelegate.m in Sources */,
+				19EAAE0E1ECC36D5007645F8 /* FMDatabaseAdditions.m in Sources */,
+				19EAAE121ECC36D5007645F8 /* GTMBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
