@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FB074AB1ECC1BEF0050F4E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074AA1ECC1BEF0050F4E7 /* main.m */; };
-		4FB074AE1ECC1BEF0050F4E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074AD1ECC1BEF0050F4E7 /* AppDelegate.m */; };
-		4FB074B11ECC1BEF0050F4E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074B01ECC1BEF0050F4E7 /* ViewController.m */; };
-		4FB074B41ECC1BEF0050F4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074B21ECC1BEF0050F4E7 /* Main.storyboard */; };
-		4FB074B61ECC1BEF0050F4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074B51ECC1BEF0050F4E7 /* Assets.xcassets */; };
-		4FB074B91ECC1BEF0050F4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074B71ECC1BEF0050F4E7 /* LaunchScreen.storyboard */; };
 		4FB074C41ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074C31ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.m */; };
 		4FB074CF1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074CE1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests.m */; };
+		4FB074EC1ECC1E200050F4E7 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074DD1ECC1E200050F4E7 /* .gitattributes */; };
+		4FB074ED1ECC1E200050F4E7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074DE1ECC1E200050F4E7 /* .gitignore */; };
+		4FB074EE1ECC1E200050F4E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074E01ECC1E200050F4E7 /* AppDelegate.m */; };
+		4FB074EF1ECC1E200050F4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074E11ECC1E200050F4E7 /* Assets.xcassets */; };
+		4FB074F01ECC1E200050F4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074E21ECC1E200050F4E7 /* LaunchScreen.storyboard */; };
+		4FB074F11ECC1E200050F4E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074E41ECC1E200050F4E7 /* Main.storyboard */; };
+		4FB074F21ECC1E200050F4E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074E61ECC1E200050F4E7 /* Info.plist */; };
+		4FB074F31ECC1E200050F4E7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4FB074E71ECC1E200050F4E7 /* LICENSE */; };
+		4FB074F41ECC1E200050F4E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074E81ECC1E200050F4E7 /* main.m */; };
+		4FB074F51ECC1E200050F4E7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074E91ECC1E200050F4E7 /* README.md */; };
+		4FB074F61ECC1E200050F4E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074EB1ECC1E200050F4E7 /* ViewController.m */; };
+		4FB074FA1ECC1E3F0050F4E7 /* MYConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB074F91ECC1E3F0050F4E7 /* MYConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +42,27 @@
 
 /* Begin PBXFileReference section */
 		4FB074A61ECC1BEF0050F4E7 /* BJNewsConnectionManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJNewsConnectionManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FB074AA1ECC1BEF0050F4E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4FB074AC1ECC1BEF0050F4E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4FB074AD1ECC1BEF0050F4E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4FB074AF1ECC1BEF0050F4E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4FB074B01ECC1BEF0050F4E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4FB074B31ECC1BEF0050F4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4FB074B51ECC1BEF0050F4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4FB074B81ECC1BEF0050F4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4FB074BA1ECC1BEF0050F4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB074BF1ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJNewsConnectionManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB074C31ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJNewsConnectionManagerTests.m; sourceTree = "<group>"; };
 		4FB074C51ECC1BEF0050F4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FB074CA1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJNewsConnectionManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB074CE1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJNewsConnectionManagerUITests.m; sourceTree = "<group>"; };
 		4FB074D01ECC1BEF0050F4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB074DD1ECC1E200050F4E7 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		4FB074DE1ECC1E200050F4E7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4FB074DF1ECC1E200050F4E7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FB074E01ECC1E200050F4E7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FB074E11ECC1E200050F4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FB074E31ECC1E200050F4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FB074E51ECC1E200050F4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FB074E61ECC1E200050F4E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB074E71ECC1E200050F4E7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4FB074E81ECC1E200050F4E7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FB074E91ECC1E200050F4E7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4FB074EA1ECC1E200050F4E7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FB074EB1ECC1E200050F4E7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FB074F81ECC1E3F0050F4E7 /* MYConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYConnection.h; sourceTree = "<group>"; };
+		4FB074F91ECC1E3F0050F4E7 /* MYConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +93,8 @@
 		4FB0749D1ECC1BEF0050F4E7 = {
 			isa = PBXGroup;
 			children = (
-				4FB074A81ECC1BEF0050F4E7 /* BJNewsConnectionManager */,
+				4FB074F71ECC1E310050F4E7 /* BJNewsConnectionManager */,
+				4FB074DC1ECC1E200050F4E7 /* Demo */,
 				4FB074C21ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests */,
 				4FB074CD1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests */,
 				4FB074A71ECC1BEF0050F4E7 /* Products */,
@@ -96,30 +109,6 @@
 				4FB074CA1ECC1BEF0050F4E7 /* BJNewsConnectionManagerUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4FB074A81ECC1BEF0050F4E7 /* BJNewsConnectionManager */ = {
-			isa = PBXGroup;
-			children = (
-				4FB074AC1ECC1BEF0050F4E7 /* AppDelegate.h */,
-				4FB074AD1ECC1BEF0050F4E7 /* AppDelegate.m */,
-				4FB074AF1ECC1BEF0050F4E7 /* ViewController.h */,
-				4FB074B01ECC1BEF0050F4E7 /* ViewController.m */,
-				4FB074B21ECC1BEF0050F4E7 /* Main.storyboard */,
-				4FB074B51ECC1BEF0050F4E7 /* Assets.xcassets */,
-				4FB074B71ECC1BEF0050F4E7 /* LaunchScreen.storyboard */,
-				4FB074BA1ECC1BEF0050F4E7 /* Info.plist */,
-				4FB074A91ECC1BEF0050F4E7 /* Supporting Files */,
-			);
-			path = BJNewsConnectionManager;
-			sourceTree = "<group>";
-		};
-		4FB074A91ECC1BEF0050F4E7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4FB074AA1ECC1BEF0050F4E7 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4FB074C21ECC1BEF0050F4E7 /* BJNewsConnectionManagerTests */ = {
@@ -138,6 +127,35 @@
 				4FB074D01ECC1BEF0050F4E7 /* Info.plist */,
 			);
 			path = BJNewsConnectionManagerUITests;
+			sourceTree = "<group>";
+		};
+		4FB074DC1ECC1E200050F4E7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4FB074DD1ECC1E200050F4E7 /* .gitattributes */,
+				4FB074DE1ECC1E200050F4E7 /* .gitignore */,
+				4FB074DF1ECC1E200050F4E7 /* AppDelegate.h */,
+				4FB074E01ECC1E200050F4E7 /* AppDelegate.m */,
+				4FB074E11ECC1E200050F4E7 /* Assets.xcassets */,
+				4FB074E21ECC1E200050F4E7 /* LaunchScreen.storyboard */,
+				4FB074E41ECC1E200050F4E7 /* Main.storyboard */,
+				4FB074E61ECC1E200050F4E7 /* Info.plist */,
+				4FB074E71ECC1E200050F4E7 /* LICENSE */,
+				4FB074E81ECC1E200050F4E7 /* main.m */,
+				4FB074E91ECC1E200050F4E7 /* README.md */,
+				4FB074EA1ECC1E200050F4E7 /* ViewController.h */,
+				4FB074EB1ECC1E200050F4E7 /* ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		4FB074F71ECC1E310050F4E7 /* BJNewsConnectionManager */ = {
+			isa = PBXGroup;
+			children = (
+				4FB074F81ECC1E3F0050F4E7 /* MYConnection.h */,
+				4FB074F91ECC1E3F0050F4E7 /* MYConnection.m */,
+			);
+			path = BJNewsConnectionManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB074B91ECC1BEF0050F4E7 /* LaunchScreen.storyboard in Resources */,
-				4FB074B61ECC1BEF0050F4E7 /* Assets.xcassets in Resources */,
-				4FB074B41ECC1BEF0050F4E7 /* Main.storyboard in Resources */,
+				4FB074ED1ECC1E200050F4E7 /* .gitignore in Resources */,
+				4FB074F11ECC1E200050F4E7 /* Main.storyboard in Resources */,
+				4FB074F21ECC1E200050F4E7 /* Info.plist in Resources */,
+				4FB074F31ECC1E200050F4E7 /* LICENSE in Resources */,
+				4FB074F01ECC1E200050F4E7 /* LaunchScreen.storyboard in Resources */,
+				4FB074EF1ECC1E200050F4E7 /* Assets.xcassets in Resources */,
+				4FB074EC1ECC1E200050F4E7 /* .gitattributes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB074B11ECC1BEF0050F4E7 /* ViewController.m in Sources */,
-				4FB074AE1ECC1BEF0050F4E7 /* AppDelegate.m in Sources */,
-				4FB074AB1ECC1BEF0050F4E7 /* main.m in Sources */,
+				4FB074F51ECC1E200050F4E7 /* README.md in Sources */,
+				4FB074F41ECC1E200050F4E7 /* main.m in Sources */,
+				4FB074F61ECC1E200050F4E7 /* ViewController.m in Sources */,
+				4FB074FA1ECC1E3F0050F4E7 /* MYConnection.m in Sources */,
+				4FB074EE1ECC1E200050F4E7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +338,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4FB074B21ECC1BEF0050F4E7 /* Main.storyboard */ = {
+		4FB074E21ECC1E200050F4E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4FB074B31ECC1BEF0050F4E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4FB074B71ECC1BEF0050F4E7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4FB074B81ECC1BEF0050F4E7 /* Base */,
+				4FB074E31ECC1E200050F4E7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4FB074E41ECC1E200050F4E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FB074E51ECC1E200050F4E7 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -514,6 +538,7 @@
 				4FB074D51ECC1BEF0050F4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FB074D61ECC1BEF0050F4E7 /* Build configuration list for PBXNativeTarget "BJNewsConnectionManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +547,7 @@
 				4FB074D81ECC1BEF0050F4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FB074D91ECC1BEF0050F4E7 /* Build configuration list for PBXNativeTarget "BJNewsConnectionManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +556,7 @@
 				4FB074DB1ECC1BEF0050F4E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
